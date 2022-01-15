@@ -3,7 +3,7 @@ title: Carmen Schäfer
 email: ""
 description: "Ilustrations"
 url: "https://mstrnilsson.github.io"
-baseurl: "/landing"
+baseurl: "/landing_page"
 facebook_username: ""
 twitter_username: ""
 instagram_username: ""
@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://mstrnilsson.github.io/landing/gallery/"  
-  - JOURNAL: "https://mstrnilsson.github.io/landing/journal/"
-  - ABOUT: "https://mstrnilsson.github.io/landing/about/"
+  - GALLERY: "https://mstrnilsson.github.io/landing_page/gallery/"  
+  - JOURNAL: "https://mstrnilsson.github.io/landing_page/journal/"
+  - ABOUT: "https://mstrnilsson.github.io/landing_page/about/"
 
 # All translation keys
 translations:
