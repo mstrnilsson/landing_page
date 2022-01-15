@@ -15,9 +15,9 @@ share: true
 
 # Owner/author information
 owner:
-  name:   photorama
+  name: carmenschäfer
   avatar: avatar.png
-  favicon: favicon.jpg
+  favicon: favicon.png
   info: photography website template
 
 # Settings for comments helper
