@@ -52,7 +52,7 @@ menu,
 nav,
 section,
 summary {
-  display: block
+  display: contents;
 }
 
 audio,
@@ -1661,7 +1661,7 @@ h1 {
 
 .h2,
 h2 {
-  font-size: 30px
+  font-size: 22px
 }
 
 .h3,
