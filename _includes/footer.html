@@ -5,7 +5,7 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
                 <ul class="list-inline text-center">
-
+                    <!--
                     {% if site.facebook_username %}
                     <li>
                         <a href="https://facebook.com/{{ site.facebook_username }}" data-toggle="tooltip" title="Facebook">
@@ -26,6 +26,7 @@
                         </a>
                     </li>
                     {% endif %}
+                    -->
                     {% if site.instagram_username %}
                     <li>
                         <a href="https://instagram.com/{{ site.instagram_username }}" data-toggle="tooltip" title="Instagram">
@@ -36,15 +37,16 @@
                         </a>
                     </li>
                     {% endif %}
-                    {% if site.flickr_username %}
+                    {% if site.linkedin_username %}
                     <li>
-                        <a href="https://flickr.com/photos/{{ site.flickr_username }}" data-toggle="tooltip" title="Flickr">
+                        <a href="https://linkedin.com/in/{{ site.linkedin_username }}" data-toggle="tooltip" title="Flickr">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-flickr fa-stack-1x fa-inverse"></i>
+                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
                     </li>
+                    <!--
                     {% endif %}
                     {% if site.deviantart_username %}
                     <li>
@@ -65,16 +67,17 @@
                             </span>
                         </a>
                     </li>
+                    -->
                     {% endif %}
-            <li>
-    <a href="mailto:{{ site.email }}" data-toggle="tooltip" target="_blank" title="Email">
+                    <li>
+                    <a href="mailto:{{ site.email }}" data-toggle="tooltip" target="_blank" title="Email">
                        <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
-</span>
-          </a> </li>
-
-         <li>
+                        </span>
+                    </a> </li>
+                    <!--
+                    <li>
                         <a href="{{ "/feed.xml" | prepend: site.baseurl }}" data-toggle="tooltip" title="Feed">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
@@ -82,6 +85,7 @@
                             </span>
                         </a>
                     </li>
+                    -->
                 </ul>
                 <p class="copyright text-muted">Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}</p>
 <center><h6><p>Powered by <a href="https://github.com/jekyll/">Jekyll</a>.</p></h6></center>
