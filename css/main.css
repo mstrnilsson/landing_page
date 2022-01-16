@@ -63,7 +63,7 @@ hr.small {
 .navbar-custom .nav li a {
   color: white;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 800;
   letter-spacing: 1px;
 }
@@ -386,12 +386,12 @@ form .row:first-child .floating-label-form-group {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #ea64a5;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #ea64a5;
 }
 img::selection {
   color: white;
@@ -402,7 +402,7 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #0085a1;
+  webkit-tap-highlight-color: #ea64a5;
 }
 .fa-stack-2x {
  color: black;
