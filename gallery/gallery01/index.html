@@ -45,7 +45,6 @@ images:
 {% for image in page.images %}  		
 
 				<figure class="gallery-item">
-                <figure class="effect-selena">
 					<header class='gallery-icon'>
 
 <a href="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}" class="popup"  title="{{ image.caption }}" data-caption="{{ image.copyright }}">
@@ -58,7 +57,6 @@ images:
 							<p>{{image.copyright}}</p>
 						</div>
 					</figcaption>
-                  </figure>
 				</figure>
 				
 {% endfor %}
