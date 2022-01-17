@@ -52,7 +52,7 @@ menu,
 nav,
 section,
 summary {
-  display: contents;
+  display: block;
 }
 
 audio,
