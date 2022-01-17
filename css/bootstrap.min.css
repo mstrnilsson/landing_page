@@ -45,6 +45,7 @@ details,
 figcaption,
 figure,
 footer,
+header,
 hgroup,
 main,
 menu,
@@ -68,8 +69,7 @@ audio:not([controls]) {
 }
 
 [hidden],
-template,
-header {
+template {
   display: none
 }
 
