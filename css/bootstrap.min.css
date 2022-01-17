@@ -45,14 +45,13 @@ details,
 figcaption,
 figure,
 footer,
-header,
 hgroup,
 main,
 menu,
 nav,
 section,
 summary {
-  display: initial;
+  display: contents;
 }
 
 audio,
@@ -69,7 +68,8 @@ audio:not([controls]) {
 }
 
 [hidden],
-template {
+template,
+header {
   display: none
 }
 
